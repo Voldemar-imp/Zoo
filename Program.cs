@@ -53,7 +53,6 @@ namespace Zoo
 
         private void AddAviaries()
         {
-
             for (int i = 0; i < _aviariesCount; i++)
             {
                 int size = _random.Next(_minSizeAviary, _maxSizeAviary + 1);
